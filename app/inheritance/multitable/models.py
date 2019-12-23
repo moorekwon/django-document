@@ -26,4 +26,4 @@ class Restaurant1(Place1):
     pizza = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'{self.name} (핫도그: {self.hot_dogs}, 피자: {self.pizza})'
+        return f'{self.name} (핫도pw그: {self.hot_dogs}, 피자: {self.pizza})'
