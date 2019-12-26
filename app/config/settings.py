@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'many_to_many.apps.ManyToManyConfig',
     'one_to_one.apps.OneToOneConfig',
 
+    'queryset.apps.QuerysetConfig',
+
     'inheritance.abstract.apps.AbstractConfig',
     'inheritance.multitable.apps.MultitableConfig',
     'inheritance.proxy.apps.ProxyConfig',
